@@ -1,0 +1,29 @@
+{
+  "name": "tool_revert",
+  "version": "1.0.0",
+  "description": "App reverse engineering and decompilation tool powered by REA (Reverse Engineer Anything)",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "tool_revert": "./bin/tool_revert.js"
+  },
+  "scripts": {
+    "start": "node ./bin/tool_revert.js",
+    "analyze": "node ./bin/tool_revert.js analyze",
+    "doctor": "node ./bin/tool_revert.js doctor",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "reverse-engineering",
+    "decompiler",
+    "rea",
+    "android",
+    "apk",
+    "security-analysis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rea-agents": "6.7.0"
+  }
+}

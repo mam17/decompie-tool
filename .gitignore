@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Backup of previous project
+_backup_puzzle_game/
+.agent-backup/
+
+# Output directories
+output/
+dist/
+build/
+reconstructed_*/
+*.log
+
+# Environment & credentials
+local.properties
+.env
+.env.*
+
+# Skills junctions & caches
+.claude/skills/
+.agent/skills/
+/skills/
+.npm-cache/
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

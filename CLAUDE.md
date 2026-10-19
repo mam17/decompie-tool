@@ -1,0 +1,3 @@
+@RULES.md
+@AGENTS.md
+@CONTEXT.md
